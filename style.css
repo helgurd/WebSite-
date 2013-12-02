@@ -1,0 +1,644 @@
+
+
+
+
+
+
+
+
+
+
+
+
+#main
+{
+   background: #EDEDED;
+   margin:0 auto;
+   font-size: 13px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   position: relative;
+   width: 100%;
+   min-height: 100%;
+   left: 0;
+   top: 0;
+   cursor:default;
+   overflow:hidden;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, ul, ol, li
+{
+   margin: 0;
+   padding: 0;
+}
+.shape1{
+	background-image:url(images/shape1.png);
+
+
+	min-width: 50px;
+
+	background-repeat:no-repeat;
+
+	
+	
+	width: 400px;
+	height:270px!important;
+	margin-top:-50px !important;
+	margin-left:20%; 
+	
+ 
+}
+
+.postcontent p
+{
+   margin: 12px 0;
+}
+
+.postcontent a, .postcontent a:link
+{
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   color: #E76750;
+}
+
+.postcontent a:visited, .postcontent a.visited
+{
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   color: #808080;
+}
+
+.postcontent  a:hover, .postcontent a.hover
+{
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: underline;
+   color: #FC9F3B;
+}
+header, footer, article, nav, #hmenu-bg, .sheet
+{
+   -webkit-background-origin: border !important;
+   -moz-background-origin: border !important;
+   background-origin: border-box !important;
+}
+
+header, footer, article, nav, #hmenu-bg, .sheet
+{
+   display: block;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+ul
+{
+   list-style-type: none;
+}
+
+ol
+{
+   list-style-position: inside;
+}
+
+html, body
+{
+   height: 100%;
+}
+
+/**
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ * https://github.com/necolas/normalize.css
+ */
+
+html {
+   -ms-text-size-adjust: 100%;
+   /* 2 */
+    -webkit-text-size-adjust: 100%;
+/* 2 */}
+
+body
+{
+   padding: 0;
+   margin:0;
+   min-width: 835px;
+   color: #292929;
+}
+
+.headline
+{
+  display: inline-block;
+  position: absolute;
+  min-width: 50px;
+  top: 47px;
+  left: 66.44%;
+  margin-left: -263px !important;
+  line-height: 100%;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  z-index: 101;
+}
+
+.headline, 
+.headline a, 
+.headline a:link, 
+.headline a:visited, 
+.headline a:hover
+{
+font-size: 47px;
+font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+font-weight: bold;
+font-style: normal;
+text-decoration: none;
+text-transform: uppercase;
+text-shadow: 1px 0px 0px rgb(23, 23, 23), 1px 0px 0px rgb(23, 23, 23), 0px -1px 0px rgb(23, 23, 23), 0px 1px 0px rgb(23, 23, 23), 0px 0px 10px rgba(0, 0, 0, 0.99);
+  padding: 0;
+  margin: 0;
+  color: #E2341D !important;
+  white-space: nowrap;
+}
+
+.slogan
+{
+	display: inline-block;
+	position: absolute;
+	min-width: 50px;
+	top: 111px;
+	left: 1050px;
+	line-height: 100%;
+	margin-left: -237px !important;
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	transform: rotate(0deg);
+	z-index: 102;
+	white-space: nowrap;
+	width: 175px;
+	height: 89px;
+
+font-size: 21px;
+font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+font-weight: normal;
+font-style: normal;
+text-decoration: none;
+text-shadow: 1px 0px 0px rgb(23, 23, 23), 1px 0px 0px rgb(23, 23, 23), 0px -1px 0px rgb(23, 23, 23), 0px 1px 0px rgb(23, 23, 23), 0px 0px 10px rgba(0, 0, 0, 0.99);
+  padding: 0;
+  margin: 0;
+  color: #F63131 !important;
+}
+
+
+.header
+{
+   border:1px solid transparent;
+   margin:0 auto;
+   background-repeat: no-repeat;
+   height: 255px;
+   position:relative;
+}
+
+.custom-responsive .header
+{
+   background-image: url('images/header.jpg');
+   background-position: center top;
+}
+
+.desktop .header
+{
+   background-image: url('images/header.jpg');
+   background-position: center top;
+}
+
+.default-responsive .header,
+.default-responsive #header-bg
+{
+   background-image: url('images/header.jpg');
+   background-position: center center;
+   background-size: cover;
+}
+
+
+
+
+
+.sheet
+{
+   background: #FFFFFF url('images/sheet.png') scroll;
+   -webkit-box-shadow:0 0 5px 3px rgba(0, 0, 0, 0.3);
+   -moz-box-shadow:0 0 5px 3px rgba(0, 0, 0, 0.3);
+   box-shadow:0 0 5px 3px rgba(0, 0, 0, 0.3);
+   margin:10px auto 0;
+   position:relative;
+   cursor:auto;
+   width: 835px;
+   z-index: auto !important;
+}
+
+.layout-wrapper
+{
+   position: relative;
+   margin: 0 auto 0 auto;
+   z-index: auto !important;
+}
+
+.content-layout
+{
+   display: table;
+   width: 100%;
+   table-layout: fixed;
+}
+
+.content-layout-row 
+{
+   display: table-row;
+}
+
+.layout-cell
+{
+   display: table-cell;
+   vertical-align: top;
+}
+
+.block
+{
+   background: #FFFFFF;
+   -webkit-border-radius:6px;
+   -moz-border-radius:6px;
+   border-radius:6px;
+   border:1px solid #C7C7C7;
+   padding:7px;
+   margin:10px;
+}
+
+
+.blockheader
+{
+   background: none;
+   padding:6px 5px;
+   margin:0 auto;
+}
+.blockheader .t,
+.blockheader .t a,
+.blockheader .t a:link,
+.blockheader .t a:visited, 
+.blockheader .t a:hover
+{
+   color: #000000;
+   font-size: 14px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-align: center;
+   margin: 0 10px 0 5px;
+}
+
+.blockcontent
+{
+   background: none;
+   padding:5px;
+   margin:0 auto;
+   color: #404040;
+   font-size: 13px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+.blockcontent table,
+.blockcontent li, 
+.blockcontent a,
+.blockcontent a:link,
+.blockcontent a:visited,
+.blockcontent a:hover
+{
+   color: #404040;
+   font-size: 13px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.blockcontent p
+{
+   margin: 6px 0;
+}
+
+.blockcontent a, .blockcontent a:link
+{
+   color: #E76750;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+}
+
+.blockcontent a:visited, .blockcontent a.visited
+{
+   color: #E76750;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+}
+
+.blockcontent a:hover, .blockcontent a.hover
+{
+   color: #FC9F3B;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: underline;
+}
+.block ul>li:before
+{
+   content:url('images/blockbullets.png');
+   margin-right:6px;
+   bottom: 2px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+   margin-left: -12px;
+}
+
+
+.block li
+{
+   font-size: 13px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   line-height: 125%;
+   color: #545454;
+}
+
+.block ul>li, .block ol
+{
+   padding: 0;
+}
+
+.block ul>li
+{
+   padding-left: 12px;
+}
+
+
+
+form.search input[type="text"]
+{
+   background: #F9FAFB;
+   border-radius: 0;
+   border:1px solid #CCD6E0;
+   margin:0 auto;
+   width: 100%;
+   padding: 0 0;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   color: #3D3D3D !important;
+   font-size: 13px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+}
+form.search 
+{
+   background-image: none;
+   border: 0;
+   display:block;
+   position:relative;
+   top:0;
+   padding:0;
+   margin:5px;
+   left:0;
+   line-height: 0;
+}
+
+form.search input, a.search-button
+{
+   top:0;
+   right:0;
+}
+
+form.search input[type="submit"], input.search-button, a.search-button
+{
+   background: #FDB363;
+   -webkit-border-radius:0 -1px -1px 0;
+   -moz-border-radius:0 -1px -1px 0;
+   border-radius:0 -1px -1px 0;
+   margin:0 auto;
+}
+form.search input[type="submit"], input.search-button, a.search-button {
+   position:absolute;
+   left:auto;
+   display:block;
+   border: 0;
+   top: 1px;
+   bottom: 1px;
+   right: 	1px;
+   padding:0 6px;
+   color: #8D4A02 !important;
+   font-size: 13px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   cursor: pointer;
+}
+
+a.search-button span.search-button-text, a.search-button:after {
+   vertical-align:middle;
+}
+
+a.search-button:after {
+   display:inline-block;
+   content:' ';
+   height: 100%;
+}
+
+a.search-button, a.search-button span,
+a.search-button:visited, a.search-button.visited,
+a.search-button:hover, a.search-button.hover 
+{
+   text-decoration: none;
+   font-size: 13px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+}
+
+
+
+.post
+{
+   background: #FFFFFF;
+   -webkit-border-radius:6px;
+   -moz-border-radius:6px;
+   border-radius:6px;
+   border:1px solid #C7C7C7;
+   padding:10px;
+   margin:10px;
+}
+
+a img
+{
+   border: 0;
+}
+
+.article img, img.article, .block img, .footer img
+{
+   margin: 7px 7px 7px 7px;
+}
+
+.metadata-icons img
+{
+   border: none;
+   vertical-align: middle;
+   margin: 2px;
+}
+
+.article table, table.article
+{
+   border-collapse: collapse;
+   margin: 1px;
+}
+
+.post .content-layout-br
+{
+   height: 0;
+}
+
+.article th, .article td
+{
+   padding: 2px;
+   border: solid 1px #B5B5B5;
+   vertical-align: top;
+   text-align: left;
+}
+
+.article th
+{
+   text-align: center;
+   vertical-align: middle;
+   padding: 7px;
+}
+
+
+
+
+
+
+
+
+.footer
+{
+   background: #202825;
+   margin:10px auto 0;
+   position: relative;
+   color: #ABABAB;
+   font-size: 11px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-align: center;
+   padding: 0;
+}
+
+.footer a,
+.footer a:link,
+.footer a:visited,
+.footer a:hover,
+.footer td, 
+.footer th,
+.footer caption
+{
+   color: #ABABAB;
+   font-size: 11px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.footer p 
+{
+   padding:0;
+   text-align: center;
+}
+
+.footer a,
+.footer a:link
+{
+   color: #BC321A;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+}
+
+.footer a:visited
+{
+   color: #8C8C8C;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+}
+
+.footer a:hover
+{
+   color: #737373;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: underline;
+}
+
+.footer h1
+{
+   color: #E2472C;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.footer h2
+{
+   color: #EA7662;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.footer h3
+{
+   color: #B5B5B5;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.footer h4
+{
+   color: #FDB363;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.footer h5
+{
+   color: #FDB363;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.footer h6
+{
+   color: #FDB363;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.footer img
+{
+   border: none;
+   margin: 0;
+}
+
+
+
+
+
+
+.footer-inner
+{
+   margin: 0 auto;
+   width:835px;
+   padding:10px;
+   padding-right: 10px;
+   padding-left: 10px;
+}
+
+.content-layout .sidebar1
+{
+   background: none;
+   margin:0 auto;
+   width: 200px;
+}
+
+.content-layout .content
+{
+   background: none;
+   margin:0 auto;
+}
+
+/* Begin Additional CSS Styles */
+.blockheader .t, .vmenublockheader .t {white-space: nowrap;}
+/* End Additional CSS Styles */
